@@ -16,7 +16,7 @@ Created On: 21 February 2025 [Friday]
 =========================<br>
 #### TempRunnerTool Repository -> TempRunnerTool Folder -> TempRunner.exe [Download]
 * Run As Administrator [Needed Permission]
-[Download](https://github.com/tirthbhatt21/TempRunnerTool/blob/main/TempRunnerTool/TempRunner.exe)
+[Download](https://github.com/tirthbhatt21/TempRunnerTool/raw/refs/heads/main/TempRunnerTool/TempRunner.exe)
 <br>=========================
 
 Here I shared about used technologies and so on...
