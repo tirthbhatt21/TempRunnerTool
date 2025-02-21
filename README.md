@@ -14,7 +14,7 @@ Created On: 21 February 2025 [Friday]
 
     
 =========================<br>
-[𝙲𝚕𝚒𝚌𝚔 𝙼𝚎 𝙵𝚘𝚛 𝙻𝚒𝚟𝚎 𝙳𝚎𝚖𝚘](https://tirthbhatt21.github.io/TempRunnerTool/) 
+#### TempRunnerTool Repository -> TempRunnerTool Folder -> TempRunner.exe [Download]
 <br>=========================
 
 Here I shared about used technologies and so on...
