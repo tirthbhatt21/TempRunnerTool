@@ -15,6 +15,7 @@ Created On: 21 February 2025 [Friday]
     
 =========================<br>
 #### TempRunnerTool Repository -> TempRunnerTool Folder -> TempRunner.exe [Download]
+* Run As Administrator [Needed Permission]
 <br>=========================
 
 Here I shared about used technologies and so on...
