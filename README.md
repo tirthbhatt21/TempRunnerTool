@@ -12,7 +12,10 @@ Created On: 21 February 2025 [Friday]
     
 =========================<br>
 ### Run As Administrator [Needed Permission]
-#### TempRunner Application -> Properties -> Compatibility ->  
+####         
+    |-> TempRunner Application 
+        |-> Properties 
+            |-> Compatibility 
 - [x] Run as administrator
     
 =========================<br>
