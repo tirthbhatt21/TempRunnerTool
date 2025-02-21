@@ -9,14 +9,14 @@ Created On: 21 February 2025 [Friday]
 
 - TempRunner Tool!.<br/>
 - here, Clear out those pesky temporary files cluttering your computer with this tool!, you're on your way to a smoother computing experience.<br>
-
-
-
     
 =========================<br>
-#### TempRunnerTool Repository -> TempRunnerTool Folder -> TempRunner.exe [Download]
-* Run As Administrator [Needed Permission]
-[Download](https://github.com/tirthbhatt21/TempRunnerTool/raw/refs/heads/main/TempRunnerTool/TempRunner.exe)
+### Run As Administrator [Needed Permission]
+#### TempRunner Application -> Properties -> Compatibility ->  
+- [x] Run as administrator
+    
+=========================<br>
+[𝙲𝚕𝚒𝚌𝚔 𝙼𝚎 𝙵𝚘𝚛 Download Application](https://github.com/tirthbhatt21/TempRunnerTool/raw/refs/heads/main/TempRunnerTool/TempRunner.exe)
 <br>=========================
 
 Here I shared about used technologies and so on...
