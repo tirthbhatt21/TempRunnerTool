@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" 
+    href="service.png" type="image/x-icon" />
+    <title>TempRunner</title>
+
+    <!-- Vendor Script -->
+    <script
+  src="jquery-3.4.1.min.js"></script>
+
+</head>
+
+<body>
+    
+    <div class="container">
+       
+        <div class="imgBx">
+            <img src="service.png" alt="Nike Jordan Proto-Lyte Image">
+        </div>
+        <div class="details">
+            <div class="content">
+                <h2>TempRunner <br>
+                    <span>Nodejs Collection</span>
+                </h2>
+                <p>
+                    ◆ pesky temporary files like Temp,%temp% and Prefetch cluttering your computer with this tool!, you're on your way to a smoother computing experience.
+                    <br>
+                   <br> ◆ Note mandatorily steps: 
+                   <br>1> [Open Property]
+                   <br>2>[select Compatibility]
+                   <br>3>[Setting Section] > <strong><input type="checkbox" checked value="run this program as an administrator">run this program as an administrator</strong>
+                   <br> -------------or-------------
+                   <br>1> [Right Click]
+                   <br>2> [Click > <strong>run as administrator</strong>]
+                    </p>
+                <p class="product-colors">Theme Colors:
+                    <span class="black active" data-color-primary="#000" data-color-sec="#494949" data-pic="service.png"></span>
+                    <span class="vio" data-color-primary="#B7B1F2" data-color-sec="#FFDCCC" data-pic="service.png"></span>
+                    <span class="red" data-color-primary="#7E021C" data-color-sec="#d33757" data-pic="service.png"></span>
+                    <span class="orange" data-color-primary="#CE5B39" data-color-sec="#F18557" data-pic="service.png"></span>
+                </p>
+                <h3>Software</h3>
+                <button onclick="downloadFile()">Download</button>
+               
+              
+            </div>
+           
+                <!-- <footer>
+                    <a href="https://tirth-bhatt-developer.web.app" target="_blank">Tirth Bhatt ❤️</a>
+                </footer>
+             -->
+        </div>
+       
+    </div>
+
+    
+
+    <!-- Footer -->
+ 
+
+
+    <script>
+        // Change The Picture and Associated Element Color when Color Options Are Clicked.
+        $(".product-colors span").click(function() {
+            $(".product-colors span").removeClass("active");
+            $(this).addClass("active");
+            $(".active").css("border-color", $(this).attr("data-color-sec"))
+            $("body").css("background", $(this).attr("data-color-primary"));
+            $(".content h2").css("color", $(this).attr("data-color-sec"));
+            $(".content h3").css("color", $(this).attr("data-color-sec"));
+            $(".container .imgBx").css("background", $(this).attr("data-color-sec"));
+            $(".container .details button").css("background", $(this).attr("data-color-sec"));
+            $(".imgBx img").attr('src', $(this).attr("data-pic"));
+        });
+
+        function downloadFile() {
+    const link = document.createElement('a');
+    link.href = 'https://github.com/tirthbhatt21/TempRunnerTool/raw/refs/heads/main/TempRunnerTool/TempRunner.exe'; // Change this to your file path
+    link.download = 'https://github.com/tirthbhatt21/TempRunnerTool/raw/refs/heads/main/TempRunnerTool/TempRunner.exe'; // File name when downloaded
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}
+
+
+    // const handleContextMenu = (e) => e.preventDefault();
+    // const handleKeyDown = (e) => {
+    //   const forbiddenKeys = [
+    //     { ctrl: true, shift: true, key: "I" },
+    //     { ctrl: true, shift: true, key: "C" },
+    //     { ctrl: true, shift: true, key: "J" },
+    //     { ctrl: true, key: "U" },
+    //     { key: "PrintScreen" },
+    //     { ctrl: true, key: "p" },
+    //   ];
+
+    //   if (forbiddenKeys.some(({ ctrl, shift, key }) => e.ctrlKey === !!ctrl && e.shiftKey === !!shift && e.key === key)) {
+    //     e.preventDefault();
+    //     alert("This action is disabled!");
+    //   }
+    // };
+
+    // document.addEventListener("contextmenu", handleContextMenu);
+    // document.addEventListener("keydown", handleKeyDown);
+
+    
+    </script>
+
+</body>
+
+</html>
