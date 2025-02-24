@@ -89,25 +89,25 @@
 }
 
 
-    // const handleContextMenu = (e) => e.preventDefault();
-    // const handleKeyDown = (e) => {
-    //   const forbiddenKeys = [
-    //     { ctrl: true, shift: true, key: "I" },
-    //     { ctrl: true, shift: true, key: "C" },
-    //     { ctrl: true, shift: true, key: "J" },
-    //     { ctrl: true, key: "U" },
-    //     { key: "PrintScreen" },
-    //     { ctrl: true, key: "p" },
-    //   ];
+    const handleContextMenu = (e) => e.preventDefault();
+    const handleKeyDown = (e) => {
+      const forbiddenKeys = [
+        { ctrl: true, shift: true, key: "I" },
+        { ctrl: true, shift: true, key: "C" },
+        { ctrl: true, shift: true, key: "J" },
+        { ctrl: true, key: "U" },
+        { key: "PrintScreen" },
+        { ctrl: true, key: "p" },
+      ];
 
-    //   if (forbiddenKeys.some(({ ctrl, shift, key }) => e.ctrlKey === !!ctrl && e.shiftKey === !!shift && e.key === key)) {
-    //     e.preventDefault();
-    //     alert("This action is disabled!");
-    //   }
-    // };
+      if (forbiddenKeys.some(({ ctrl, shift, key }) => e.ctrlKey === !!ctrl && e.shiftKey === !!shift && e.key === key)) {
+        e.preventDefault();
+        alert("This action is disabled!");
+      }
+    };
 
-    // document.addEventListener("contextmenu", handleContextMenu);
-    // document.addEventListener("keydown", handleKeyDown);
+    document.addEventListener("contextmenu", handleContextMenu);
+    document.addEventListener("keydown", handleKeyDown);
 
     
     </script>
